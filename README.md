@@ -1,6 +1,4 @@
-# Expensify - Full Stack Expense Tracker 🚀
-
-![Expensify Cover](https://via.placeholder.com/1200x600/1B1B1B/FFFFFF?text=Expensify+-+Your+Personal+Finance+Tracker)
+# Expensify - Full Stack Expense Tracker     live link: expense-tracker-mu-navy-72.vercel.app
 
 A full-stack, aesthetically pleasing web application designed to help you track your income, expenses, and financial summaries. Built with the **MERN** stack (MongoDB, Express, React, Node.js) and featuring a stunning dark-themed UI with glassmorphism elements.
 
