@@ -1,0 +1,14 @@
+.layout-container {
+  display: flex;
+  width: 100%;
+  min-height: 100vh;
+}
+
+.main-content {
+  margin-left: 300px; /* Sidebar width (260) + left offset (20) + gap (20) */
+  padding: 20px 20px 20px 0;
+  flex: 1;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}

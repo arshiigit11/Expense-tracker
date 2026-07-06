@@ -1,0 +1,72 @@
+.summary-card {
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.summary-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.summary-title {
+  font-size: 1rem;
+  font-weight: 500;
+  color: var(--text-muted);
+}
+
+.icon-wrapper {
+  width: 40px;
+  height: 40px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon-wrapper.balance {
+  background: rgba(99, 102, 241, 0.1);
+  color: var(--primary);
+}
+
+.icon-wrapper.income {
+  background: rgba(16, 185, 129, 0.1);
+  color: var(--success);
+}
+
+.icon-wrapper.expense {
+  background: rgba(239, 68, 68, 0.1);
+  color: var(--danger);
+}
+
+.summary-body {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.summary-amount {
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--text-main);
+  letter-spacing: -1px;
+}
+
+.summary-trend {
+  font-size: 0.875rem;
+  color: var(--text-muted);
+}
+
+.summary-trend span {
+  font-weight: 600;
+}
+
+.summary-trend.positive span {
+  color: var(--success);
+}
+
+.summary-trend.negative span {
+  color: var(--danger);
+}
