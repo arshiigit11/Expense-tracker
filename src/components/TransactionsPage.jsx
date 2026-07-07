@@ -13,7 +13,8 @@ const TransactionsPage = () => {
   const fetchTransactions = async () => {
     try {
       const token = localStorage.getItem('token');
-      const res = await fetch('/api/transactions', {
+      const API_URL = import.meta.env.VITE_API_URL || '';
+      const res = await fetch(`${API_URL}/api/transactions`, {
         headers: {
           'Authorization': `Bearer ${token}`
         }
